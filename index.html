@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
-  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+        content="Customize your NeRF: Adaptive Source Driven 3D Scene Editing via Local-Global Iterative Training">
+  <meta name="keywords" content="Editing, NeRF">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nerfies: Deformable Neural Radiance Fields</title>
+  <title>Customize your NeRF: Adaptive Source Driven 3D Scene Editing via Local-Global Iterative Training</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -32,7 +32,8 @@
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="./static/images/favicon.svg">
+  <link rel="icon" href="static/images/shoe2.png">
+  
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -42,7 +43,7 @@
 </head>
 <body>
 
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<!-- <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
       <span aria-hidden="true"></span>
@@ -80,7 +81,7 @@
     </div>
 
   </div>
-</nav>
+</nav> -->
 
 
 <section class="hero">
@@ -88,39 +89,43 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Nerfies: Deformable Neural Radiance Fields</h1>
+          <h1 class="title is-1 publication-title">Customize your NeRF: Adaptive Source Driven 3D Scene Editing via Local-Global Iterative Training</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://keunhong.com">Keunhong Park</a><sup>1</sup>,</span>
-            <span class="author-block">
-              <a href="https://utkarshsinha.com">Utkarsh Sinha</a><sup>2</sup>,</span>
-            <span class="author-block">
-              <a href="https://jonbarron.info">Jonathan T. Barron</a><sup>2</sup>,
+              <!-- <a href="https://keunhong.com">Runze He</a><sup>1</sup>,</span> -->
+              Runze He<sup>1,2</sup>,
             </span>
             <span class="author-block">
-              <a href="http://sofienbouaziz.com">Sofien Bouaziz</a><sup>2</sup>,
+              Shaofei Huang<sup>1,2</sup>,
             </span>
             <span class="author-block">
-              <a href="https://www.danbgoldman.com">Dan B Goldman</a><sup>2</sup>,
+              Xuecheng Nie</a><sup>3</sup>,
             </span>
             <span class="author-block">
-              <a href="https://homes.cs.washington.edu/~seitz/">Steven M. Seitz</a><sup>1,2</sup>,
+              Tianrui Hui</a><sup>1,2</sup>,
             </span>
             <span class="author-block">
-              <a href="http://www.ricardomartinbrualla.com">Ricardo Martin-Brualla</a><sup>2</sup>
+              Luoqi Liu</a><sup>3</sup>,
+              Jiao Dai</a><sup>1,2</sup>,
+              Jizhong Han</a><sup>1,2</sup>,
+              Guanbin Li</a><sup>4</sup>,
+              Si Liu</a><sup>5</sup>
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>University of Washington,</span>
-            <span class="author-block"><sup>2</sup>Google Research</span>
+            <span class="author-block"><sup>1</sup>Institute of Information Engineering, Chinese Academy of Sciences,</span>
+            <span class="author-block"><sup>2</sup>School of Cyber Security, University of Chinese Academy of Sciences,</span>
+            <span class="author-block"><sup>3</sup>MT Lab, Meitu Inc.,</span>
+            <span class="author-block"><sup>4</sup>Sun Yat-sen University,</span>
+            <span class="author-block"><sup>5</sup>Beihang University</span>
           </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/pdf/2011.12948"
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -129,7 +134,7 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2011.12948"
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -138,7 +143,7 @@
                 </a>
               </span>
               <!-- Video Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -146,26 +151,26 @@
                   </span>
                   <span>Video</span>
                 </a>
-              </span>
+              </span> -->
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/google/nerfies"
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
                   </span>
-                  <span>Code</span>
+                  <span>Coming soon</span>
                   </a>
               </span>
               <!-- Dataset Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://github.com/google/nerfies/releases/tag/0.1"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="far fa-images"></i>
                   </span>
                   <span>Data</span>
-                  </a>
+                  </a> -->
             </div>
 
           </div>
@@ -179,20 +184,19 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
+        <source src="./data/my_videos/shoe.mp4"
                 type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
+        <!-- <span class="dnerf">Nerfies</span> turns selfie videos from your phone into free-viewpoint portraits. -->
+        CustomNeRF, designed for adaptive source driven 3D scene editing with unified editing prompts from either texts or reference images.
       </h2>
     </div>
   </div>
 </section>
 
 
-<section class="hero is-light is-small">
+<!-- <section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
@@ -247,7 +251,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 
 <section class="section">
@@ -269,8 +273,35 @@
     </div>
     <!--/ Abstract. -->
 
-    <!-- Paper video. -->
+
+    <!-- Pipeline. -->
     <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Method</h2>
+        <div class="content has-text-justified">
+
+          <p>
+              Given an original 3D scene, CustomNeRF aims to edit it according to a textual description or a reference image. Our pipeline consists of three steps in total.
+          </p>
+          <p>
+              (a) Reconstruct the original 3D scene with a foreground-aware NeRF, which enables the identification of foreground regions. 
+          </p>
+          <p>
+              (b) Finetune the pre-trained text-to-image diffusion model to embed the visual subject in the reference image into a special token V*. This step is only required in image-driven editing. 
+          </p>
+          <p>
+              (c) Optimize the given NeRF with our proposed Local-Global Iterative Editing (LGIE) training scheme to align with the textual description or the reference image. The local and global data flows occur in an alternating manner. 
+          </p>
+          <img src="static/images/pipeline.png"
+          class="interpolation-image"
+          alt="Interpolation end reference image."/>
+        </div>
+      </div>
+    </div>
+    <!--/ Pipeline. -->
+
+    <!-- Paper video. -->
+    <!-- <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
         <div class="publication-video">
@@ -278,8 +309,10 @@
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
-    </div>
+    </div> -->
     <!--/ Paper video. -->
+
+    <!-- <h2 class="title is-3">Results</h2> -->
   </div>
 </section>
 
@@ -287,9 +320,14 @@
 <section class="section">
   <div class="container is-max-desktop">
 
-    <div class="columns is-centered">
+    <!-- <h2 class="title is-3">Results</h2>
+    <h2 class="title is-4">Training Progression</h2>
+    <video id="body-video" muted autoplay playsinline controls loop>
+      <source id="mp4" src="data/my_videos/bear.mp4" type="video/mp4">
+    </video> -->
 
-      <!-- Visual Effects. -->
+    <!-- <div class="columns is-centered">
+
       <div class="column">
         <div class="content">
           <h2 class="title is-3">Visual Effects</h2>
@@ -303,9 +341,7 @@
           </video>
         </div>
       </div>
-      <!--/ Visual Effects. -->
 
-      <!-- Matting. -->
       <div class="column">
         <h2 class="title is-3">Matting</h2>
         <div class="columns is-centered">
@@ -322,15 +358,13 @@
 
         </div>
       </div>
-    </div>
-    <!--/ Matting. -->
+    </div> -->
 
     <!-- Animation. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2>
-
-        <!-- Interpolating. -->
+        <h2 class="title is-3">Results</h2>
+<!-- 
         <h3 class="title is-4">Interpolating states</h3>
         <div class="content has-text-justified">
           <p>
@@ -361,61 +395,36 @@
             <p class="is-bold">End Frame</p>
           </div>
         </div>
-        <br/>
-        <!--/ Interpolating. -->
+        <br/> -->
 
-        <!-- Re-rendering. -->
-        <h3 class="title is-4">Re-rendering the input video</h3>
+        <!-- <h3 class="title is-4">More Results</h3> -->
         <div class="content has-text-justified">
           <p>
-            Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
-            viewpoint such as a stabilized camera by playing back the training deformations.
+            Using CustomNeRF, you can use text descriptions or reference images for NeRF editing, keeping the foreground area changed without affecting the background area.
           </p>
         </div>
         <div class="content has-text-centered">
-          <video id="replay-video"
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 width="75%">
-            <source src="./static/videos/replay.mp4"
+          <video id="replay-video" muted autoplay playsinline controls loop>
+            <source src="data/my_videos/bear.mp4"
                     type="video/mp4">
           </video>
         </div>
-        <!--/ Re-rendering. -->
+        <div class="content has-text-centered">
+          <video id="replay-video" muted autoplay playsinline controls loop>
+            <source src="data/my_videos/hat.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="content has-text-centered">
+          <video id="replay-video" muted autoplay playsinline controls loop>
+            <source src="data/my_videos/others.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
 
       </div>
     </div>
     <!--/ Animation. -->
-
-
-    <!-- Concurrent Work. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
-
-        <div class="content has-text-justified">
-          <p>
-            There's a lot of excellent work that was introduced around the same time as ours.
-          </p>
-          <p>
-            <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
-          </p>
-          <p>
-            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
-            both use deformation fields to model non-rigid scenes.
-          </p>
-          <p>
-            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
-          </p>
-          <p>
-            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!--/ Concurrent Work. -->
 
   </div>
 </section>
@@ -434,7 +443,7 @@
 </section>
 
 
-<footer class="footer">
+<!-- <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
       <a class="icon-link"
@@ -464,7 +473,7 @@
       </div>
     </div>
   </div>
-</footer>
+</footer> -->
 
 </body>
 </html>
